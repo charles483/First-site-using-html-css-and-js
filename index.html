@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif] n-->
 <html>
 
 <head>
@@ -17,19 +13,33 @@
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        
     <!-- header design -->
     <header class="head">
         <a href="#" class="logo">Portfolio</a>
         <i class='bx bx-menu' id="menu-bar"></i>
         <nav class="navigation">
-            <a href="#Home" class="active">Home</a>
-            <a href="#About">About</a>
-            <a href="#Services">Sevices</a>
-            <a href="#Portfolio">Portfolio</a>
-            <a href="#Contacts">Contacts</a>
+            <a href="#Home" class="active"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-add-fill" viewBox="0 0 16 16">
+                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 1 1-1 0v-1h-1a.5.5 0 1 1 0-1h1v-1a.5.5 0 0 1 1 0"/>
+                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                <path d="m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+              </svg>
+
+            </a>
+            <a href="#About"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11"/>
+              </svg></a>
+            <a href="#Services"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-medical" viewBox="0 0 16 16">
+                <path d="M7.5 5.5a.5.5 0 0 0-1 0v.634l-.549-.317a.5.5 0 1 0-.5.866L6 7l-.549.317a.5.5 0 1 0 .5.866l.549-.317V8.5a.5.5 0 1 0 1 0v-.634l.549.317a.5.5 0 1 0 .5-.866L8 7l.549-.317a.5.5 0 1 0-.5-.866l-.549.317zm-2 4.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
+                <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+              </svg></a>
+            <a href="#Portfolio"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+              </svg></a>
+            <a href="#Contacts"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+              </svg></a>
         </nav>
     </header>
     <!-- home section design -->
@@ -38,9 +48,7 @@
             <h3>hello its me </h3>
             <h1>Charles Churu</h1>
             <h3>and i'm a <span>frontend develper</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos id accusamus nisi. Natus ut
-                delectus dolores reprehenderit ea sed adipisci, aliquam aperiam iste. Exercitationem deleniti eos quod,
-                dolores rem tenetur.</p>
+            <p>My name is Charles Churu, and I am a frontend developer. With a passion for crafting seamless user experiences, I specialize in translating design concepts into interactive and responsive web interfaces. Leveraging my expertise in HTML, CSS, and JavaScript, I bring creativity and precision to the forefront of web development. My goal is to create visually appealing and user-friendly websites that elevate the digital experience</p>
             <div class="social-media">
                 <a href="#"><i class='bx bxl-facebook-circle'></i></a>
                 <a href="#"><i class='bx bxl-twitter'></i></a>
@@ -50,30 +58,17 @@
             <a href="#" class="btn"> Download my CV</a>
         </div>
         <div class="img-icon">
-           <a href="https://freeimage.host/i/JcE5J0N"><img src="https://iili.io/JcE5J0N.md.jpg" alt="JcE5J0N.md.jpg" border="1"></a>
+           <a href="https://freeimage.host/i/JcE5J0N" target="_blank"><img src="https://iili.io/JcE5J0N.md.jpg" alt="JcE5J0N.md.jpg" border="1"></a>
         </div>
     </section>
     <!-- about section design  -->
     <section class="about" id="About">
         <div class="about-img">
-            <img src="https://www.shutterstock.com/image-vector/home-icon-vector-house-real-260nw-1719002980.jpg"
-                alt="">
+          <a href="https://freeimage.host/i/J072POg"><img src="https://iili.io/J072POg.md.png" alt="J072POg.md.png" border="0"></a> 
             <div class="about-content">
                 <h2 class="heading">about <span>Me</span></h2>
                 <h3>Front end develpoer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, temporibus quae esse quaerat amet
-                    possimus dolorum perspiciatis consectetur officiis repudiandae voluptatum odit voluptatem ad placeat
-                    nisi ipsam facere voluptatibus excepturi. Fugiat, nobis repellendus? Corrupti a distinctio quos,
-                    porro commodi, perferendis nihil explicabo eveniet qui repudiandae similique vel obcaecati culpa,
-                    necessitatibus velit maxime dolores impedit! Accusantium rerum labore cum unde iure! Alias, deleniti
-                    dicta. Omnis, similique facilis suscipit repellat corporis beatae inventore harum nemo dolorum.
-                    Eius, quod explicabo vel aliquam repellendus cum dignissimos ad minus quam atque praesentium natus
-                    provident neque? Accusantium sequi et ipsam. Ipsum voluptatem non natus optio necessitatibus
-                    laboriosam nostrum et impedit nihil saepe tempore hic temporibus quas voluptate, repellat sit
-                    adipisci id repellendus quam repudiandae molestiae quidem. Quisquam nostrum ullam quod vel sint
-                    adipisci illo. Blanditiis inventore voluptate dolores neque dignissimos magni mollitia, nesciunt
-                    enim, id suscipit sapiente facere sunt quidem ex saepe! Perferendis id, dolor exercitationem
-                    doloribus accusamus temporibus sequi.</p>
+                <p>Hello, I'm a passionate frontend developer named Charles Churu. I thrive on transforming creative visions into captivating and functional web experiences. My skill set encompasses HTML, CSS, and JavaScript, allowing me to seamlessly bridge design and development. In the world of code, I find joy in crafting user-friendly interfaces that not only meet but exceed expectations..</p>
                 <a href="#" class="btn">read more</a>
 
 
@@ -82,93 +77,101 @@
     </section>
     <!-- services section designing -->
     <section class="services" id="Services">
-        <h2 class="heading">my <span>Services</span></h2>
+        <h2 class="heading">my <span>Services</span></h2>     
         <div class="services-container">
             <div class="services-box">
                 <h3>Web Development</h3>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium repellendus minus esse alias
-                    doloribus explicabo, saepe facere, blanditiis modi eos harum culpa! Molestiae dolor laudantium
-                    tempora quisquam cumque architecto in nesciunt distinctio laboriosam eum vitae accusamus, voluptate
-                    eaque consequuntur pariatur praesentium harum laborum quidem. Corporis.</p>
+                <p> Welcome to my Web Development services! I specialize in creating dynamic and engaging web experiences that leave a lasting impression. With a keen eye for detail and a commitment to cutting-edge technologies, I bring your digital vision to life.</p>
                 <a href="#" class="btn">read More</a>
             </div>
             <div class="services-box">
                 <h3>Network and route analysis</h3>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium repellendus minus esse alias
-                    doloribus explicabo, saepe facere, blanditiis modi eos harum culpa! Molestiae dolor laudantium
-                    tempora quisquam cumque architecto in nesciunt distinctio laboriosam eum vitae accusamus, voluptate
-                    eaque consequuntur pariatur praesentium harum laborum quidem. Corporis.</p>
+                <p>  proudly offer a specialized service in Network and Route Analysis. Leveraging my expertise, I provide comprehensive insights into network structures and optimize routes for enhanced efficiency. This service encompasses a thorough examination of network configurations, identifying potential bottlenecks, and proposing strategic solutions</p>
                 <a href="#" class="btn">read More</a>
             </div>
             <div class="services-box">
-                <h3>Survey applications</h3>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium repellendus minus esse alias
-                    doloribus explicabo, saepe facere, blanditiis modi eos harum culpa! Molestiae dolor laudantium
-                    tempora quisquam cumque architecto in nesciunt distinctio laboriosam eum vitae accusamus, voluptate
-                    eaque consequuntur pariatur praesentium harum laborum quidem. Corporis.</p>
+                <h3>Survey </h3>
+                <p> Welcome to our Survey Solutions service, where we specialize in transforming the way you collect and analyze data"Welcome to Survey Solutions! With our cutting-edge features, including advanced functionalities such as branching logic, skip logic, and more, we revolutionize the way you collect and analyze data. Our innovative approach makes it easier than ever to obtain the insights you need, ensuring a seamless and insightful survey experience for both you and your participants."</p>
                 <a href="#" class="btn">read More</a>
             </div>
             <div class="services-box">
                 <h3>responsive design</h3>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium repellendus minus esse alias
-                    doloribus explicabo, saepe facere, blanditiis modi eos harum culpa! Molestiae dolor laudantium
-                    tempora quisquam cumque architecto in nesciunt distinctio laboriosam eum vitae accusamus, voluptate
-                    eaque consequuntur pariatur praesentium harum laborum quidem. Corporis.</p>
+                <p> At the heart of our digital creations lies a commitment to responsive design, ensuring an unparalleled user experience across various devices and screen sizes.</p>
                 <a href="#" class="btn">read More</a>
             </div>
         </div>
     </section>
     <!-- portfolio section design -->
-    <section class="portfolio" id="Portfolio">
-        <h2 class="heading">Latest <span>Projects</span></h2>
-        <div class="portfolio-box">
-            <img src="C:\Users\PC\Pictures\download.jpg" alt="lorem2">
-            <div class="portfolio-layer">
-                <h4>Web design</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolore!</p>
-
-
-            </div>
+    <section class="Portfolio" id="Portfolio">
+        <h2 class="heading">latest <span>projects</span></h2>
+        <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="C:\Users\PC\Pictures\download.jpg" alt="lorem2">
+                <img src="https://th.bing.com/th/id/OIP.F7kP9pHak5QcZ1h4JE30TgHaEz?rs=1&pid=ImgDetMain" alt="">
                 <div class="portfolio-layer">
                     <h4>Web design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolore!</p>
-
-
+                    <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process.</p>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                      </svg></a>
                 </div>
-                <div class="portfolio-box">
-                    <img src="C:\Users\PC\Pictures\download.jpg" alt="lorem2">
-                    <div class="portfolio-layer">
-                        <h4>Web design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolore!</p>
-
-
-                    </div>
-                    <div class="portfolio-box">
-                        <img src="C:\Users\PC\Pictures\download.jpg" alt="lorem2">
-                        <div class="portfolio-layer">
-                            <h4>Web design</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolore!</p>
-
-
-                        </div>
-                        <div class="portfolio-box">
-                            <img src="C:\Users\PC\Pictures\download.jpg" alt="lorem2">
-                            <div class="portfolio-layer">
-                                <h4>Web design</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolore!</p>
-
-
-                            </div>
-                            <div class="portfolio-box">
-                                <img src="C:\Users\PC\Pictures\download.jpg" alt="lorem2">
-                                <div class="portfolio-layer">
-                                    <h4>Web design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolore!</p>
-
-
-                                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="data:image/png;base64,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" alt="">
+                <div class="portfolio-layer">
+                    <h4>Responsive design</h4>
+                    <p>Responsive web design, or RWD, is an approach that adapts content automatically to screens of various devices, like tablets, phones, TVs, and watches, ensuring an optimal viewing experience.</p>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                      </svg></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL4T9TF3RjxzG6rKVwiHAcMsbAVyh7Bshsog&usqp=CAU" alt="">
+                <div class="portfolio-layer">
+                    <h4>Route analysis</h4>
+                    <p>Network Analyst, a type of network analysis that determines the best route from one network location to one or more other locations.</p> 
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                      </svg></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://www.techaheadcorp.com/wp-content/uploads/2023/03/api-development.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>API development</h4>
+                    <p>API (Application Programming Interface software) is a set of instructions, standards or requirements that enables a software or app to employ features/services of another app, platform or device for better services. In short, it's something that lets apps communicate with each other.</p>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                      </svg></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBISERISEhQZERgYEhIRGBgSGhUYGBEYGBgZGhoYGBgcIS4lHB4rHxgZJjgmKy8xNTU1GiQ7QDszPy40NTQBDAwMEA8QHhISHjEsJCs0NDQ0NjE0MTQ0NDQ0NDQ0MTE0NDExMTExMTQ0NDE0NDQ1NDQ0NDQ0NDQ0MTQ0NDQ0Nf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAADAQEBAQEBAAAAAAAAAAAAAQIDBAYFBwj/xABBEAACAQIDBQQFCQcEAwEAAAABAgADEQQSIQYTMUFRBSJhoRRxgZGSMkJSYrHB0eHwByOCotLi8RVTcpOywtMz/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAECAwQFBv/EACsRAQEAAgEDAwIFBQEAAAAAAAABAhEhAxIxBEFRYfATIpGh4UJxgbHRBf/aAAwDAQACEQMRAD8A/KYQhNIUDwjhAzjijgOUJIlCUWVOsmWR48ogIClCEYEBWlKIWlKIDKj7ILa99LXtb74WHlGLX14ae2GVoieXjHdLj85WZP1eAKa+rnAnMnTymQ9UOU3SpoBa8DFTbS3OPP4TbeH6MzqKSbgdIGJitNGQjiJOQwItFNMkN3AytFNlSSqaw0yiM6tyOszen0gYGKauukzMCYpURkEwjigEIQgaQijgOAijWBEYgYxAJQiEoSjQLccZIlqOGvhJgEcBKEMlaUohaAgVYQ09Vh5xmaIVAFxeUAZeY8pZdBwF/ZJ3gta3LoNLA/lM21PrgDte3hEG1vK3Z6RFTA0Wt4RNW6CZ5Y8pgM1TaZlpoKd/KDUSPGBjcxljNtx4xPSHKQc94y5lZYKBeBkTFczpKqJD5TDTnMRE0jzCBjaBWaFxILyCMsMsu8kvAkrFKzSYFwkCOBcYmccCmgJLQEouUszEoQN0W8CNZmogwgaCMTIShDLS0qZRwNY1mMYgdF/DrC/P1W8LTHN4Q9nhKOklunzgdeV4qhJAuLAaTKx6cQI7N0gVYygpJExCNAIevSBvkNuPK8xLnrDJ49ZnkkFFj1kmLIIWEAMRlMFmekBmLLETDMIaIrEREzaxFoAV5wKwLaWkXkFZYFZF4rwNd3Fu5leF4DEYiEcBxxCMQBohKMQgMRrFNMOt3RTzdR7yBLErtwHZGJr60qFSoOqIxX4rW8504nZvGoMzYWqBzIRmt8N5+nUO01p4OlTS++U2JzDJkBNha9vk5RoL319fM+0NQcV9xnonQ37vNfUa9n5KI59faeoHxLVAoQuMxA5kaE+sz5InHLHtysd8b3YynCJjoZ+r9v7LdgYB6aYqpiUZ0zrlLvoDYnuobazO235VCex2s2KbDPQqYI1MbQr0zVplFNR1ACnvBF1Uh1Iaw6Hx8nTw9RnFNEd3LFAiqxcsOK5AL30OluUMpzRXns9k9iGxVLHPiKeJotRpqaSqhTfPlqFkIdCWIKoLLY97xEvYHZiliWx6Y2i6vQo03VXNWkyMwc95QQeCqbH742unigx8rSt4Z0L2VitwuIbD1RTKht4abhLEfKz2tl8eEzwmEqVnyUab1mtfLSR3a3Wygm3jKjHOYsx6zfGYOrRbJWpvRa18tVHRiOoDAXHjNP8ASsSXRRh6xd1zou6q5nXTvKuW7LqNRpqIHHeKb4vC1KLmnVpvScAEpURkax4HKwBtpxmEgRilRQJMRlGSYaTEZcmBJijMDAmKUZJkCijigSYRxQKEYijgMRiIRiAzwiEqSIHX2dhd5UCnhYsbdBy95E/R8NR7OSmijBpUbKLs6hmLW1JJ8ek8RsvbeuDx3ensYXnqnr7oF2UtYaAcWPAAeJNh7Z7Oljh2d1ePrZ59+o7XweHb5OBoj+EfhIHZpPyVFNQNFQWVQOgnoMDsziqiB6uJXDk65KdIMF8CzMMx8bD1TZ9kqvD04/8ASn9U8d/9P088V1npepfLzuzHZ1Gpjai16KYhVoLpUVXClnNiAeB7p9xnN+0jZ/D0kTEYamtEBlR1pjKhDaBgo0BvYadZ7vsvsahhEK0y1RnbO9RyC1QgWHAAADkALD2mfC/aG6js+vm57sD17xLT4ufrcs/Vy438tsmn0cOhMejq+ZK/IOvqM/b/ANoeH7Ierhz2jXrUn3JCCiHYMubUnLTbW/qn4jaeh2r2pftKpSqVKaUzTQoAhYhgTe5vPtV5Xpe0dv6KYvs8YRWTC4SynNcGojKKbd3jZUuRfUnloJ9+j2GmF7cxmPcDcUsK/aCsOAeqrK1jwJ7lY/xLPyPA4R69VKNJc7u2RFuBmY8BdiAPaZ+o7aYythOw8JgazD0iolOm4UgslKn3iCQe9ayITwN2iwT+zjtzE1cP2y9RzdafpKDS1KpV9Jdyun0lHHoJl+ybHvWrdp4isd+7YegzM1v3mUVBZrC3BQOHKeQ2S2prdmvVZKa1VqKiuj3AOQtlII4WzNyPGfQobfVkr4muuHorv6NKgUTMqotPOFIsdWs9uQ0GkaTb1n7NtpMV2i+NpYxxVRsOrhAiKtMPmVlWwuVsQLMTw9c4MFi37O2bw+Iwdlq4iqoq1soZkuXF9QRplVBfQFupnkNkNo6nZr1KlNFqZ6S0znLAKAb3Fuc6dltrq+ApPh8iYqg1r0qwNgTxKnWwNtQQRfoSbtG3qGxj9pbOYutjbPUoO5pViFVmKhD80AXOZkNuPrnft5tFicFhezlwjLSerhxmqZUZgtNaVlXMCLEuSdOU8XtLtfWx1JcKETC0FIO6oDRiCbZjoCAdQAAL666W5dqNpHxyYRHRaYw9NqalWJLhhTBJB4f/AJj3mNG3pf2p1TXw3Y+JcAPUwru+XQEulBreoFmt6zPzk2n3u3to3xWHwWHemqDC0tyrKxJcZKaXYEaHuA+2fB0liFpA2jBEQbjAT68ucjKZoz+EQudQIaZ5YmSalW6SXBHGBGSIpEWMksYAV0kGVeIyCYjHFARijMUCo5IlCAxGIhHAoSZQkwOrs/FtRqJUUXynUHgwPET1p2lo4h6FNUdGOIww7wW2lVCdQfCeJE2wtY0qiVALlHSoAeZVg1vKW5ZdlxnuzccblLX9H9ek4qvabIzKMHiagBsHQUMreK5qgNvWBI7F2jwWMQNTrIGIu1N2Cuh5godfaLjxnXWxuHwxz1qiBQD8t1UDx7xsZ+Yw6GWGes8f98Po90s4rz/a22+HwjqmIw2Josyl1DLROYA2v3ah5z8/212tXHlKdFGSmrbw7ywZ2sQNASAoBPPUnlaY7dduU8big1G5REKBjezXYt3b65RoAees86J9r0/pcJrO46rzdTq5buMvDbCUDUqU6YNi9RKYJ4AuwUE+Gs+ziNm2Utuq9PEbusmHq5M6tQZnyAsrAXXNcXF58js+uKVajUIJCVqVQgWuQjqxAvz0noKnb2GptXfD062aviEq1WrGn3FWrvStNV4knS7GdurepLO3+HPGTXKafYGTEijSxqNXV3QKi10ZXRXawewAN0sCDxImeA7Kr4zdValazVXqorVy7uy0aZqO5JJOUWy+szbt7aJazrVpVMTnTEb9ExG63VLUkBQpzaHKPVebHail6fRxCU3p0aaVVVEy51aqKhdxc2uXe/Hgo9U5b6/b9dfo1Zht87/SVZazUsQldadA12KpUXQMq5RnUanNe8xwHY5ema1SsmGp7zdK9XOc72uVRUBJAHFuAn1v9ewxatvGxddauFOGZqm4NRO+HGWxtb5XHmZzHtHBNRXDOuJNNHarTdTQFUM4s6MvySpsCDxvNTPq61fnz/j/AKmsQuzToKpr10wwpulPM2d0feLmRkZBqpHOR2hsviKFB6z2YU63o7ql2INgVcdVOZQOfeGk7K217ZKwppu2Z8OKeZadRadKkhQK2cG78De3WZ4Ha6pSppoatTf16tQ1bFKoqKoAPO4dFbgAMotMS+p86n9vvwuun4KrsjUpuy1ayUcmGTFOxDsEDPkyEKCSwPScq7PO9KvWoVFxKUSmc01dSwZbllVgD3eftM+phdrEBDPv1Y4KnhmqUt3n3i1DUZ1LNaxvz11Ok5jtKKa1TQas1R8RQxAqYjdljkRkZXymxBBtbpeSX1Hv54LMEYLZsVHo0jiER61CliERlqEsrIz2uBYEBTz5TkwnZS1sQKGHqpVBRnNTK6oqquZjlZcxsOQGt531NpKR7Qw2LWi1NKVBaJprl7pCVFsmoGUZxa9tBwnw+xcSlGqr1DVUKpAbDMEqI1rBlJ0I46HjedZ+LzbvxxPqze3jXz+z6FLsdXdgmIpPTSkKtSt31SiubLZ1ZcwcnQJYk3Et+wn7zJUp1Kfo2IxSVEzZai0AM6WIBVwSBYjmJ3Y7amhVvSenUq03oilVqNuUxFRlfPTfu905CLAHiCb+OWF7fw1MLQWnW9HGGxdEkmmazviMoZyLhQAFsACfbMTLreef415/Vrtw+Xw/QycK2JuMq11w2XXNmZGfN0tZbT6mC2czvSpHE00erRTEIjJVJZHRn4qLAgK3E8olx+CWlUwpTEtRd6dcMdwKqVUDLoAcrKUa2uoMSbQ0x2hSxW7ZaVKl6OiAqXCLRamlySAWu1z981ll1bLrc81JMZrbJOwalRVbDVUxIbEphlyK6ZmamahY5gLKqg3PhCps8z5DRxFLEqa1LD1GpZ/3D1GyIzBgMyE6BhxtF2FtB6JRpoELuuMGIN7BGpmg1J0ve4YhjY2sPKb4btvCYay4WnWyviMNVqmsaZYJQqB1p0wpsTcfKY8vcv4supz98/ssmOnHitma9JsUj2VsOtNiNbVldwilD0N76+I4iZdtdh+iZlfEUnqIyo9JRUDoWF7qWUBlHMg2n1K21gq0MZQq02cVXLUX7oenTNYVDSc/RsNONiTyi7a2ko1sI2HT0iqSyMrYs0mOGCkkhHXvNmHd73Lzzjl1u7809/b4+SzDV08pEY4jPW5pijigIxRmKAxGIhKEBiMRRgQKERjEREoIxFaMCAygPEXlJSTpEBNF4SBAW4ShEYwJQxAQAlKT0hkrSgDEbywjaeP+JROWPLAAxhSYEgSsvjDL6+cMvXwgFhp7YG32QywIHSBLdfGGbwgesAT0MAL+ERJ6SrHoYsjdJBLEnyiFONgRyk3MNHuvGG68ZGYySTAtlExMZitAUkyrRGQSYoyIjARijitA0EYhHaAxAQhAYjaKDSgEoSRGIFrNUI5zJZohHOGVORfSIQZgYCUVHIvAOOogaCaIx5er1c5jnHWMVB1gaKL315ExstpmHHWVmB4mUURAASbjrAkQKuPs/ONXAsOhPtizjw4ed/wgzrbSBa1F6cunGLf68P1aYkwtILNU3v4ESTVMAhPvAgaR+2BDuTxmZjiMgDJMZkmAjJMoyTDRGIwMDARiMIpAoQMUDS0doQgEcYtKAEaEQM1FOPdDrGhiLShaWtK7ZRrNPRja+n6/wZdJtkoE0TSMUvV5yhS/WsukJjeICaCnGKcaGFUae2Z2/Wk2xKWX2ibUsOpAPib2+aAL6+PT1SybpbpyWjAnU1EC1hfQHhwvyP2xbsdJNaNsAIwJuEHSPIOkaGFpU1CDpGFHSXRtjCbZB0jCDpGjbC9teNtfXEMQOk1rrpp4zH0Zhy+3STRs9/8Ad5RmqftkCkZQpGBNoZZoKZjFMxoZZPGG78ZtuzHuzGl243FpBm9RhwmWWREGIzTdmLctDTOIzXcN4SHQrxgRFCEg1EcQjgdlCkpUEgk68Ly9x9U/zRYa1luBz426eM3sAOX8s6ySxztsrMUfqnzjFH6p85eZP0INl5aeyNQ3XKwtUFrjuj18Z1ZD0f4fZ1nNVFqg/wCI4i3ObIBre3E9P6fwjEqt34P8P5xil4P8P5wOXU2Hsy/0SQ6/R8Pmf0y8M/mUEF7d6/TL+cCoHHMPWB+MN4Po/wDh/TC6nkfYR9gWTheWGMtk/iEqilx8lm/48vIxY9CF1UrqPlf4iX5PtHI9OskvLV8Ngn1H9/8AbHk+o/v/ALYZRpw+F9fXGFGp0+F7Ca057G7+o/v/ALYFANSjj1n+2Lu2tmHrs15WZfq/C0ffsoVAdQjn1H+2Tdfot8Q/pl5l+r8LSMq/S8jFIAVvwNvWPttGCvQ+8fhEQNNb+w6RlR9K/sMnLXDKvyt4y9T9L4Brrfr1mdbl7ZSNq2vTmvlf7ohTyf8AL4PzjCD63w/nKzDry6pEKg04+5ZdRndLIOHe+H84yoHEkfwj8ZW8H6CyWZT18pOF5AA6n3D8YaW4n3fnEGW+hPlA25ecK5vR79646/d93mIhRt/ib0rW5cz837xNBbw/k/CO2G65xT8YxT8Z02HUfyfhBvC38n4R2m2G68ZyY5bW9s+iL+H8s4O0DqJnKcNSuIwhCYaaiOEIHXh3sBNmq3FvvH4Rwm5eGbDptTt3lYn6rqo9xQ/bN6Vemt/3Za/02pt7r044TFkpty4/EbyqGsR+7C6lTwJ6KOvSFJwL3PO/zvuYQhN4TU4LypnBB1P833sYqKoT32KC3FVDm/SxYfbHCXJnFvu6P+6//Uv/ANJvSbDqAD3yPnNTqA8fqYgDyhCc8sL8111HJ21XVwpUk2013n/vUfyInKrd23t/QhCMJqM11A+I/wCwwY6HUcPp38oQnbblphGIoTDoqdiYAkA72iLgGzVEBF+RHIwhMdS2eCRtj6VNUui0wcw1p1zUbn83p4z58IR0OZyW8oq8vbHSfjc24c2190ITp7pfDQ1ND3vN5nTUEgFgg6sGIHsUE+UcIySOgYen/vp8Nf8Aom9CnQUEO6Ob8T6Sth0sqfq8ITFwvzXTu+h9oYgOqAPnsTpnxD206VBYeycEIS4YyThm+UUnsemnj90t3BHG/tY/aIQmpbpLJs0pqRcui+DCpcfChHnOijTpD5bq2otlNQD23pGEJiz6tIxTIXOSwFh8m9vNQfKfMx/KEJf6T3ccIQmVf//Z" alt="">
+                <div class="portfolio-layer">
+                    <h4>Python development</h4>
+                    <p>Python development is the process of creating applications, websites, and software using the Python programming language. Python is known for its simplicity, readability, and versatility, making it a popular choice for developers.</p>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                      </svg></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="data:image/png;base64,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" alt="">
+                <div class="portfolio-layer">
+                    <h4>React development</h4>
+                    <p>React development refers to the process of building user interfaces (UIs) using the React library. React is a popular open-source JavaScript library for building interactive and efficient user interfaces for web applications.</p>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                      </svg></a>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- contact section design -->
     <section class="contact" id="Contacts">
@@ -205,3 +208,4 @@
 </body>
 
 </html>
+
