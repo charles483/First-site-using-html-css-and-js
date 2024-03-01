@@ -6,40 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Charles Churu - Frontend Developer</title>
     <meta name="description" content="Portfolio of Charles Churu, a frontend developer. Learn more about my skills and projects.">  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
 <body>
-        
+
     <!-- header design -->
     <header class="head">
         <a href="#" class="logo">Portfolio</a>
         <i class='bx bx-menu' id="menu-bar"></i>
         <nav class="navigation">
-            <a href="#Home" class="active"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-add-fill" viewBox="0 0 16 16">
-                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 1 1-1 0v-1h-1a.5.5 0 1 1 0-1h1v-1a.5.5 0 0 1 1 0"/>
-                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
-                <path d="m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293z"/>
-              </svg>
-
-            </a>
-            <a href="#About"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
-                <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11"/>
-              </svg></a>
-            <a href="#Services"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-medical" viewBox="0 0 16 16">
-                <path d="M7.5 5.5a.5.5 0 0 0-1 0v.634l-.549-.317a.5.5 0 1 0-.5.866L6 7l-.549.317a.5.5 0 1 0 .5.866l.549-.317V8.5a.5.5 0 1 0 1 0v-.634l.549.317a.5.5 0 1 0 .5-.866L8 7l.549-.317a.5.5 0 1 0-.5-.866l-.549.317zm-2 4.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-                <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
-              </svg></a>
-            <a href="#Portfolio"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
-                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
-                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
-              </svg></a>
-            <a href="#Contacts"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
-                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
-              </svg></a>
+            <a href="#Home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Services">Services</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Contacts">Contacts</a>
         </nav>
     </header>
     <!-- home section design -->
@@ -64,12 +48,12 @@
     <!-- about section design  -->
     <section class="about" id="About">
         <div class="about-img">
-          <a href="https://freeimage.host/i/J072POg"><img src="https://iili.io/J072POg.md.png" alt="J072POg.md.png" border="0"></a> 
+          <a href="https://freeimage.host/i/J072POg"><img src="https://iili.io/J072POg.md.png" alt="J072POg.md.png" border="0"></a>
             <div class="about-content">
                 <h2 class="heading">about <span>Me</span></h2>
                 <h3>Front end develpoer</h3>
                 <p>Hello, I'm a passionate frontend developer named Charles Churu. I thrive on transforming creative visions into captivating and functional web experiences. My skill set encompasses HTML, CSS, and JavaScript, allowing me to seamlessly bridge design and development. In the world of code, I find joy in crafting user-friendly interfaces that not only meet but exceed expectations..</p>
-                <a href="#" class="btn">read more</a>
+                <a href="about_me.html" class="btn" target="_blank">read more</a>
 
 
             </div>
@@ -77,7 +61,7 @@
     </section>
     <!-- services section designing -->
     <section class="services" id="Services">
-        <h2 class="heading">my <span>Services</span></h2>     
+        <h2 class="heading">my <span>Services</span></h2>
         <div class="services-container">
             <div class="services-box">
                 <h3>Web Development</h3>
@@ -85,6 +69,11 @@
                 <a href="#" class="btn">read More</a>
             </div>
             <div class="services-box">
+                <h3>Network and route analysis</h3>
+                <p>  proudly offer a specialized service in Network and Route Analysis. Leveraging my expertise, I provide comprehensive insights into network structures and optimize routes for enhanced efficiency. This service encompasses a thorough examination of network configurations, identifying potential bottlenecks, and proposing strategic solutions</p>
+                <a href="#" class="btn">read More</a>
+            </div>
+             <div class="services-box">
                 <h3>Network and route analysis</h3>
                 <p>  proudly offer a specialized service in Network and Route Analysis. Leveraging my expertise, I provide comprehensive insights into network structures and optimize routes for enhanced efficiency. This service encompasses a thorough examination of network configurations, identifying potential bottlenecks, and proposing strategic solutions</p>
                 <a href="#" class="btn">read More</a>
@@ -131,7 +120,7 @@
                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL4T9TF3RjxzG6rKVwiHAcMsbAVyh7Bshsog&usqp=CAU" alt="">
                 <div class="portfolio-layer">
                     <h4>Route analysis</h4>
-                    <p>Network Analyst, a type of network analysis that determines the best route from one network location to one or more other locations.</p> 
+                    <p>Network Analyst, a type of network analysis that determines the best route from one network location to one or more other locations.</p>
                     <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
                         <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
@@ -198,7 +187,7 @@
     <footer class="footer">
        <div class="footer-text">
         <p>copyright &copy; made with &heartsuit; by Charles Churu| all rights Reserved</p>
-       </div> 
+       </div>
        <div class="footer-icon-top">
         <a href="#Home"><i class='bx bx-up-arrow-alt'></i></a>
        </div>
