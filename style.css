@@ -23,6 +23,18 @@ html {
    font-size: 62.5%;
    overflow-x: hidden;
 }
+.img-icon img{
+  width: 250px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  --_m: radial-gradient(#000 69%,#0000 70%) 84.5%/50%;
+  -webkit-mask-box-image: var(--_m);
+             mask-border: var(--_m);
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
 
 body {
    background: var(--bg-color);
@@ -92,7 +104,7 @@ a.active {
    border-radius: 50%;
 
 }
- 
+
  .img-icon img {
    display: block;
    width: 35vw;
@@ -255,13 +267,13 @@ span {
 .Portfolio h2{
    margin-bottom: 4rem;
 }
- 
+
 .portfolio-container{
    display: grid;
    grid-template-columns: repeat(3,1fr);
    align-items: center;
    gap: 2.5rem;
-   
+
 }
 .portfolio-box{
    position: relative;
@@ -395,7 +407,7 @@ span {
     background: var(--main-color);
     border-radius: .8rem;
     transition: .5s ease;
-     
+
 }
 .footer-icon-top a:hover{
    box-shadow: 0 0 1rem var(--main-color);
@@ -404,4 +416,4 @@ span {
    font-size: 2.4rem;
    color: var(--second-bg-color);
 
-} 
+}
